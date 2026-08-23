@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-13",
+  "active_blueprints_expected": 312,
+  "bank_records_checked": 15600,
+  "subjective_records": 15600,
+  "visual_records": 15600,
+  "ten_mark_records": 15600,
+  "uniqueness_failures": 0,
+  "unique_questions_per_combination": 50,
+  "button_tags": 42,
+  "buttons_with_onClick": 42,
+  "buttons_without_onClick": [],
+  "features": {
+    "google_oauth_entry": true,
+    "delete_history": true,
+    "delete_saved": true,
+    "go_no_go_dashboard": true,
+    "pricing_validation": true,
+    "stripe_checkout_route": true,
+    "pdf_visual_export": true
+  }
+}

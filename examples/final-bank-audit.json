@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-12T14:25:02.073Z",
+  "expected": 15600,
+  "checked": 15600,
+  "subjective": 15600,
+  "visual": 15600,
+  "tenMarks": 15600,
+  "uniquenessNote": "Question IDs are unique for all 15,600 bank records. Template families intentionally reuse some mathematical structures while varying records by combination/index.",
+  "evidenceSummary": {
+    "A": 0,
+    "B": 40,
+    "C": 54,
+    "D": 10
+  }
+}

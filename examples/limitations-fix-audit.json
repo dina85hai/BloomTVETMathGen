@@ -1,0 +1,28 @@
+{
+  "active_blueprints": 312,
+  "c5_blueprints": 0,
+  "c6_blueprints": 0,
+  "subjective_blueprints": 312,
+  "mcq_blueprints": 0,
+  "button_instances": 35,
+  "buttons_with_onClick": 35,
+  "live_ai_ui_fetch": true,
+  "api_rejects_mcq": true,
+  "api_enforces_visual": true,
+  "api_anthropic": true,
+  "api_openai": true,
+  "direct_pdf_download": true,
+  "profile_tab": true,
+  "actual_dashboard_data": true,
+  "supabase_schema_present": true,
+  "research_evidence_counts": {
+    "A": 2,
+    "B": 39,
+    "C": 53,
+    "D": 10
+  },
+  "level_a_note": "A mappings are Malaysian pre-diploma / closely matched evidence; cohort-specific prevalence still requires local validation.",
+  "typescript_transpile_files_checked": 25,
+  "typescript_transpile_errors": 0,
+  "full_next_build_note": "A full npm install/build could not be completed in this sandbox because package download timed out; source transpilation and static implementation audits passed."
+}

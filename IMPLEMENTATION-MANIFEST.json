@@ -1,0 +1,95 @@
+{
+  "name": "BloomTVET MathGen — Production Fixed",
+  "version": "2.0.0",
+  "activeFramework": {
+    "bloom": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "difficulty": [
+      "Easy",
+      "Medium",
+      "Hard"
+    ],
+    "format": "Subjective"
+  },
+  "bank": {
+    "subtopics": 26,
+    "combinations": 312,
+    "questionsPerCombination": 50,
+    "capacity": 15600
+  },
+  "liveAI": [
+    "Anthropic",
+    "OpenAI"
+  ],
+  "database": "Supabase with RLS + local fallback",
+  "files": {
+    "supabaseSchema": "supabase/schema.sql",
+    "liveAISetup": "docs/LIVE-AI-SETUP.md",
+    "supabaseSetup": "docs/SUPABASE-SETUP.md",
+    "limitationsAudit": "examples/limitations-fix-audit.json",
+    "rpnSourceMap": "src/data/rpnAlignment.ts"
+  },
+  "release": "FINAL-FIXED-2026-08-13",
+  "activeBloomLevels": [
+    "C1",
+    "C2",
+    "C3",
+    "C4"
+  ],
+  "difficultyLevels": [
+    "Easy",
+    "Medium",
+    "Hard"
+  ],
+  "subtopics": 26,
+  "activeCombinations": 312,
+  "questionsPerCombination": 50,
+  "builtInQuestionRecords": 15600,
+  "uniqueWithinEveryCombination": true,
+  "questionFormat": "Subjective / constructed response only",
+  "visuals": [
+    "algebra tiles",
+    "formula map",
+    "equation balance",
+    "process flow",
+    "triangle",
+    "rectangle/cuboid",
+    "circle/sector",
+    "trigonometric graph",
+    "number line",
+    "Argand",
+    "polar"
+  ],
+  "auth": [
+    "Supabase email/password",
+    "Supabase Google OAuth"
+  ],
+  "storage": [
+    "Supabase with RLS",
+    "localStorage fallback"
+  ],
+  "libraryActions": [
+    "history",
+    "save",
+    "delete",
+    "clear"
+  ],
+  "validation": [
+    "teacher feedback",
+    "student results",
+    "GO/NO-GO dashboard",
+    "pricing acceptance"
+  ],
+  "lms": [
+    "Google Classroom coursework JSON export",
+    "Canvas QTI ZIP export",
+    "credential-dependent Google Classroom coursework API route",
+    "credential-dependent Canvas assignment API route"
+  ],
+  "billing": "Stripe Checkout plus verified webhook route and Supabase entitlement table; account credentials and production webhook setup required.",
+  "rpnStatus": "Source-mapped against official RPN/RPM 2026-2035 public pages; exact PDF clause validation still required before official compliance is claimed."
+}
