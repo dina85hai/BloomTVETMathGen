@@ -9,7 +9,9 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "verify": "npm run typecheck && npm run test && npm run build",
+    "verify": "npm run typecheck && npm run test && npm run validate:questions && npm run build && npm run verify:build",
+    "validate:questions": "tsx scripts/validate-question-bank.ts",
+    "verify:build": "node scripts/verify-build.mjs",
     "check:production": "node scripts/check-production-env.mjs",
     "export:questions:md": "tsx scripts/export-question-bank-md.ts",
     "export:questions:table-json": "tsx scripts/export-question-table-json.ts"
